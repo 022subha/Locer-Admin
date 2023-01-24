@@ -1,0 +1,78 @@
+.widget {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px;
+  background: #ffffff;
+  border: 2px solid rgba(217, 217, 217, 0.5);
+  border-radius: 4px;
+  height: 100px;
+  .icon1 {
+    margin-left: 10px;
+    font-size: 50px;
+    padding: 6px;
+    color: #ffffff;
+    background: rgba(255, 102, 0, 0.89);
+    border-radius: 100%;
+  }
+  .icon2 {
+    margin-left: 10px;
+    font-size: 50px;
+    padding: 6px;
+    color: #ffffff;
+    background: #5dce40;
+    border-radius: 100%;
+  }
+  .icon3 {
+    margin-left: 10px;
+    font-size: 50px;
+    padding: 6px;
+    color: #ffffff;
+    background: #11448a;
+    border-radius: 100%;
+  }
+  .left,
+  .right {
+    margin-top: 20px;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title {
+      font-weight: bold;
+      font-size: 14px;
+      color: rgb(160, 160, 160);
+    }
+
+    .counter {
+      font-size: 28px;
+      font-weight: 300;
+    }
+
+    .link {
+      width: max-content;
+      font-size: 12px;
+      border-bottom: 1px solid gray;
+    }
+
+    .percentage {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+
+      &.positive {
+        color: green;
+      }
+      &.negative {
+        color: red;
+      }
+    }
+
+    // .icon {
+    //   font-size: 18px;
+    //   padding: 5px;
+    //   border-radius: 5px;
+    //   align-self: flex-end;
+    // }
+  }
+}
